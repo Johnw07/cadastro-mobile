@@ -65,8 +65,7 @@ export default function App() {
         onChangeText={text => setConfirmarSenha(text)}
         value={confirmarSenha}
       />
-
-      {/* Botão de seleção de turma estilizado com azul suave */}
+          
       <TouchableOpacity 
         style={styles.turmaInput} 
         onPress={() => setTurmaModalVisible(true)}
